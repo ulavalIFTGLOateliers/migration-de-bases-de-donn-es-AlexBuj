@@ -259,7 +259,6 @@ class Grader:
                     return False
 
             return True
-
         return wrapper
 
     def _check_state_content(self, state):
